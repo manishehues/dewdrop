@@ -1,0 +1,949 @@
+@media screen and (max-width:1919px){
+
+}
+
+@media screen and (max-width:1599px){
+
+}
+
+@media screen and (max-width:1439px){
+    .fusion-body .fusion-fullwidth .fusion-row,
+    .fusion-body .fusion-header-wrapper .fusion-row{
+        max-width:1200px!important;
+    }
+
+    .heroBanner .bannerReview{
+        max-width:200px;
+        font-size:18px;
+    }
+
+    .bannerArea .smallBanner .fusion-text h2{
+        font-size:40px!important;
+    }
+    .testimonials .reviews blockquote q{
+        font-size:40px;
+    }
+    
+}
+
+@media screen and (max-width:1365px){
+
+}
+
+@media screen and (max-width:1279px){
+    #slidingbar-area .slide-excerpt h2, #slidingbar-area ul, .counter-box-content, .fusion-alert, .fusion-blog-layout-timeline .fusion-timeline-date, .fusion-body #main .tribe-events .datepicker, .fusion-body .tribe-common .tribe-common-b2, .fusion-body .tribe-common .tribe-common-b3, .fusion-footer-widget-area .slide-excerpt h2, .fusion-footer-widget-area ul, .fusion-progressbar .progress-title, .fusion-project-details-tb .project-info h4, .gform_wrapper .gfield_description, .gform_wrapper label, .jtwt .jtwt_tweet, .post-content blockquote, .project-content .project-info h4, .review blockquote q, .sidebar .jtwt .jtwt_tweet, .sidebar .slide-excerpt h2, body{
+        font-size:16px
+    }
+    .entryContent h2{
+        font-size:40px!important
+    }
+    .section{
+        padding-top:60px!important;
+        padding-bottom:60px!important;
+    }
+    .heroBanner{
+        min-height:420px;
+    }
+    .bannerContent .fusion-text h2{
+        font-size:45px!important;
+    }
+    .heroBanner .bannerReview p{
+        font-size:16px;
+        line-height:1.5em;
+    }
+    .quoteSection .leftSide{
+        float:none;
+        margin:auto;
+        margin-bottom:15px;
+        text-align: center;
+        padding-right:0;
+    }
+    .quoteSection .rightSide{
+        float:none;
+        margin:auto;
+        overflow: hidden;
+        width:calc(100% - 300px);
+    }
+
+    .fusion-main-menu > ul > li > a{
+        font-size:15px!important;
+    }
+    .bannerArea .smallBanner .fusion-text {        
+        left: 40px;
+        bottom: 35px;
+    }
+    .fusion-body .bannerArea .smallBanner {
+        min-height: 330px;
+    }
+    .banner.first .fusion-column-wrapper {
+        padding-left: 50px !important;
+        padding-top: 50px !important;
+    }
+    .banner.first{
+        min-height:500px;
+    }
+    .testimonials{
+        margin-top:70px!important;
+    }
+    .testimonials .reviews blockquote q{
+        padding:0 25px!important;
+    }
+    .testimonials .reviews blockquote q{
+        font-size:30px;
+    }
+    .testimonials .reviews blockquote img{
+        max-width:30px;
+    }
+    .countdown .businessGrowth .col-counter-box .counter-box-container{
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    .countdown .businessGrowth .col-counter-box .display-counter{
+        font-size:50px;
+    }
+    .countdown .businessGrowth .col-counter-box .counter-box-content{
+        font-size:18px!important;
+        margin-top:5px;
+    }
+    .fusion-body .bannerArea .btnArea{
+        margin-bottom:0;
+        margin-top:5px;
+    }
+    
+    .servicesBio .steps .fusion-column-wrapper{
+        margin-left:0;        
+        margin-right:0;        
+    }
+    .contactUs .gMap{
+        min-height:300px;
+    }
+    .fusion-body .contFormDetails .ContactForm{
+        width:100%!important;
+        margin-right:0!important;
+        padding-right:0!important;
+        border-right:none;
+    }
+    .fusion-body .contFormDetails .addressDetails{
+        width:100%!important;
+        text-align: center;
+    }
+    .contFormDetails .same.social .snglDetails li{
+        float:none;
+        display:inline-block;
+        margin:0 8px;
+    }
+    
+    .contFormDetails.section{
+        padding-top:60px!important;
+    }
+    .fusion-body .contFormDetails .ContactForm .fusion-text{
+        text-align: center;
+    }
+    .fusion-body .ContactForm {
+        text-align: center;
+    }
+    .wpcf7-spinner{
+        display: none!important;;
+    }
+    .fusion-body .ContactForm input.btn.wpcf7-form-control{
+        width: 170px;
+        margin: auto;
+        display: block;      
+    }
+   
+}
+
+@media screen and (max-width:1023px){
+    .logged-in .fusion-header-wrapper{
+        top:46px;
+    }
+
+    body.page-id-322 #main,
+    body.page-id-334 #main{
+        margin-top:0!important
+    }
+    .fusion-mobile-nav-holder{
+        display:block;
+    }
+    .fusion-main-menu{
+        display:none
+    }
+    #main{
+        margin-top:100px!important;
+    }
+    .fusion-header-wrapper{
+        position: fixed;
+        left:0;
+        top:0;
+        width:100%;
+        background:var(--white);
+    }
+    .fusion-header-wrapper .fusion-header{
+        padding-top:0!important;
+        padding-bottom:0!important;
+    }
+    .fusion-header-wrapper .fusion-header .fusion-row{
+        height:100px;
+        display:flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .fusion-header-wrapper .fusion-secondary-header{
+        display:none;
+    }
+    .fusion-body .fusion-header-wrapper .fusion-header{
+        background-color:transparent;
+    }
+    .fusion-logo{
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        width:150px;
+        margin:0!important;
+    }
+    .fusion-header-wrapper .fusion-mobile-nav-holder{
+        float:right;
+        width:auto;
+        clear:none;
+    }
+    .fusion-header-wrapper .fusion-mobile-selector{        
+        border: none;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        right:30px;
+        width:auto;
+        height:30px;
+    }
+    .fusion-header-wrapper .fusion-mobile-selector span{
+        display:none;
+    }
+    .fusion-header-wrapper .fusion-mobile-selector .fusion-selector-down{
+        border:none;
+        height:auto;
+        width:auto;
+        line-height:normal;        
+    }  
+    .fusion-header-wrapper .fusion-mobile-selector .fusion-selector-down::before{
+        content:"\f0c9";
+        font-family: "Font Awesome 5 Pro";
+        color:var(--sec-color);
+    }
+
+    .fusion-header-wrapper ul.fusion-menu{
+        position: fixed;
+        left:0;
+        top:101px;
+        border:none;
+        width:100%;
+        background:var(--white);
+        border-top:1px solid #eee;
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item{
+        position: relative;
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item a.fusion-bar-highlight{
+        height:auto;
+        border:none;
+        font-size:18px;
+        font-family:var(--brand);
+        font-weight:var(--bold);
+        text-transform:uppercase;
+        padding:15px 30px;
+        background:var(--white);
+        border-bottom:1px solid #eee;
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item button.fusion-open-submenu::before{
+        content:'+';   
+        font-size:26px;
+        font-family:var(--brand);     
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item button.fusion-open-submenu{
+        padding: 0;
+        height: 55px;
+        line-height: normal;
+        display:flex;
+        align-items: center;
+        position: absolute;
+        right:0;
+        justify-content: center;
+        width:60px;
+        border-left:1px solid #eee;
+        cursor: pointer;
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item button.fusion-open-submenu[aria-expanded="true"]:before{
+        content:'-'
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item ul.sub-menu li.fusion-mobile-nav-item a{
+        font-size:14px;
+        font-weight:var(--semibold);
+    }
+
+    .bannerContent .fusion-text{
+        text-shadow:0px 0px 5px rgba(0, 0, 0, 0.7);
+    }
+    .quoteSection .rightSide input.form-control,
+    .quoteSection .rightSide select.form-control{
+        height:60px;
+    }
+    .quoteSection .btn{
+        padding-top:0;
+        padding-bottom:0;
+    }
+    .bannerContent .fusion-text h4{
+        letter-spacing: 2px;
+        font-size:20px!important;
+        line-height:1.6em!important;
+    }
+    .bannerArea .smallBanner .fusion-text h2{
+        font-size:30px!important;
+    }
+    .bannerArea .smallBanner .fusion-text a.learnMore{
+        font-size:12px;
+    }
+    .fusion-body .bannerArea .smallBanner{
+        min-height:250px;
+    }
+    .fusion-body .bannerArea .btnArea {
+        margin-bottom: 0;
+        margin-top: 0;
+        line-height: normal;
+    }
+    .bannerArea .smallBanner .fusion-text{
+        left:25px;
+        bottom:25px;
+    }
+    .bannerArea .smallBanner .fusion-text a.learnMore i::before{
+        font-size:13px;
+    }
+    .fusion-body .bannerArea .btnArea{
+        float:left;
+        width:100%;        
+    }
+    .fusion-body .bannerArea .smallBanner.fourth .fusion-text .btn{
+        font-size:13px;
+        padding:12px 25px;
+        border-radius:3px!important;
+        display:inline-block;
+    }
+    .bannerArea .smallBanner .fusion-text p{
+        font-size:14px;
+    }
+    .bannerArea .smallBanner .fusion-text p:last-child{
+        margin-bottom:0!important;
+    }
+    .fusion-body .bannerArea .smallBanner.fourth .fusion-text .btn{
+        margin-top:0;
+    }
+    .countdown .businessGrowth .col-counter-box .display-counter{
+        font-size:40px;
+    }
+    .callUs .fusion-text h2{
+        font-size:45px!important;
+    }
+    .callUs .fusion-text h3{
+        font-size:25px!important;        
+    }
+    .aboutCompany .entryContent{
+        max-width:85%;
+    }
+    .aboutCompany .entryContent{
+        padding:50px 60px;
+    }
+    
+    .servicesSection.section .sngleServices .fusion-title h4{
+        font-size:25px!important
+    }
+    .servicesSection.section .sngleServices .fusion-title{
+        left:25px;
+    }
+    .expReviews .entryContent h3{
+        font-size:25px!important;
+    }
+    .expReviews .cusSatisfation .fusion-imageframe{
+        text-align: center;
+    }
+    .expReviews .cusSatisfation .fusion-imageframe img{
+        max-width:250px;
+    }
+    .sngleMember:first-child{
+        padding-top:0;        
+    }
+    .sngleMember:last-child{
+        padding-bottom:0;        
+    }
+    .entryContent.normal h2{
+        font-size:30px!important;
+    }    
+    
+    .quoteSection .rightSide{
+        width:calc(100% - 30px);
+    }
+    .steps .stepsContent .entryContent {
+        padding: 50px 30px;
+    }
+    .steps .stepsContent ul li p{
+        font-size:13px;        
+    }
+    .steps .stepsContent ul li h4{
+        font-size:20px!important;
+    }
+    .steps .stepsContent ul li{
+        padding:13px 0;
+    }
+    .btn, .fusion-button.btn{
+        font-size:13px;
+        padding:15px 30px;
+    }
+    .steps .stepsContent .entryContent h2{
+        font-size:35px!important;
+    }
+    .reviewsSec .entryContent h2 br{
+        display:none;
+    }
+    .formFooter{
+        padding:30px!important;
+    }
+    .bookingForm .fusion-text h2 {
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:928px){
+    .logged-in .fusion-header-wrapper{
+        top:32px;
+    }
+    .fusion-header-wrapper .fusion-header .fusion-row{
+        height:70px;
+    }
+    #main{
+        margin-top:70px!important;
+    }
+    .fusion-standard-logo, .fusion-sticky-logo, .fusion-logo img{
+        max-height:40px;
+    }
+    .fusion-header-wrapper ul.fusion-menu{
+        top:71px;
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item a.fusion-bar-highlight{
+        font-size:15px;
+    }
+    .heroBanner {
+        min-height: calc(100vh - 70px);
+    }
+    .fusion-logo{
+        width:auto;
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item button.fusion-open-submenu{
+        height:50px;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    .fusion-header-wrapper .fusion-header .fusion-row{
+        height:70px;
+    }
+    #main{
+        margin-top:70px!important;
+    }
+    .fusion-standard-logo, .fusion-sticky-logo, .fusion-logo img{
+        max-height:40px;
+    }
+    .fusion-header-wrapper ul.fusion-menu{
+        top:71px;
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item a.fusion-bar-highlight{
+        font-size:15px;
+    }
+    .heroBanner {
+        min-height: calc(100vh - 70px);
+    }
+    .fusion-logo{
+        width:auto;
+    }
+    .footerBookNow .btn{
+        padding-top:12px;
+        padding-bottom:12px;
+        font-size:16px;
+    }
+    .countdown .businessGrowth .col-counter-box{
+        margin:0;
+        float:left;
+        width:33.33%;
+    }
+    .countdown .businessGrowth .col-counter-box .counter-box-container{
+       
+        padding-top:0!important;
+        padding-bottom:0!important;
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item button.fusion-open-submenu{
+        height:50px;
+    }
+    .fusion-body .slideQuote .fusion-row{
+        margin-left:0!important;
+        margin-right:0!important;
+    }
+    .reviewsSec .fusion-row{
+        padding-left:40px!important;
+        padding-right:40px!important;
+    }
+    input.wpcf7-form-control{
+        height:50px!important;       
+    }
+    label.label{
+        border-radius:5px;
+    }
+    .col-6{
+        width:100%;
+    }
+    .post-404page .opps .secTitle{
+        font-size:100px!important
+    }
+    .post-404page .opps .subTitle{
+        font-size:25px!important
+    }
+    .post-404page .opps{
+        min-height:450px;
+    }
+    
+    
+}
+
+@media screen and (max-width:735px){
+    .bannerContent .fusion-text h2{
+        font-size:40px!important;
+    }
+    .bannerContent .fusion-text h4{
+        font-size:16px;
+        letter-spacing: 1px;
+    }
+    .fusion-body .bannerArea .smallBanner.first,
+    .fusion-body .bannerArea .smallBanner.second{
+        width:100%!important;
+    }
+    .banner.first .fusion-column-wrapper{
+        padding:50px!important;
+        text-align: center;
+    }
+    .banner.first .fusion-column-wrapper .fusion-text br{
+        display: none;;
+    }
+    .banner.first{
+        min-height:auto;
+    }
+    .aboutCompany .entryContent{
+        padding:30px;
+    }
+    .entryContent h2{
+        margin-bottom:15px!important;
+    }
+    .servicesSection .sngleServices{
+        margin:15px 0!important;
+    }
+    .servicesSection.section .sngleServices .fusion-title h4{
+        font-size:45px!important
+    }
+    .servicesSection.section .sngleServices .fusion-title{
+        max-width:50%;
+    }
+
+    .expReviews .fusion-row{
+        flex-direction: column-reverse;
+        align-items: unset;
+        text-align: center;
+    }
+    .expReviews .fusion-row div{
+        text-align: center!important;
+    }
+    .cusSatisfation{
+        margin-bottom:35px!important;
+    }
+    .siteFooter img.desktop{
+        display:none
+    }
+    .siteFooter img.mobile{
+        display:block!important
+    }
+}
+
+@media screen and (max-width:666px){
+    .logged-in .fusion-header-wrapper {
+        top: 46px;
+      }
+
+    .section{
+        padding-top:45px!important;
+        padding-bottom:45px!important;
+    }
+    .fusion-header-wrapper .fusion-header .fusion-row{
+        height:100px;
+    }
+    .fusion-standard-logo, .fusion-sticky-logo, .fusion-logo img{
+        max-height:60px;
+    }
+    .fusion-header-wrapper ul.fusion-menu{
+        top:101px;
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item a.fusion-bar-highlight{
+        font-size:18px;
+    }
+    .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item button.fusion-open-submenu{
+        height:56px;
+    }
+    .heroBanner{
+        min-height:55vh
+    }
+    #main{
+        margin-top:100px!important;
+    }
+    .heroBanner .bannerReview p:first-child{
+        opacity: 1;
+    }
+    .quoteSection .rightSide{
+        width:100%;
+        background:none;
+        border-radius:0;
+    }
+    .quoteSection .rightSide input.form-control{
+        height:55px;
+        width:100%;
+        border-radius:3px!important;
+        margin:5px 0;
+    }
+    .quoteSection .rightSide select.form-control{
+        width:100%;
+        border-radius:3px!important;
+        background:var(--white);
+        margin:5px 0;
+    }
+    .quoteSection .rightSide input.form-control,
+    .quoteSection .rightSide select.form-control{
+        font-size:20px!important;
+    }
+    .quoteSection .rightSide input.form-control::placeholder{
+        font-size:20px;
+    }
+    .quoteSection .btn{
+        position: relative;
+        padding-top:6px;
+        padding-bottom:6px;
+        height:55px;
+        border-radius:5px!important;
+        left:0;
+        top:0;
+        margin:5px 0; 
+        width:100%;
+    }
+    .entryContent h2{
+        font-size:35px!important;
+    }
+    .entryContent br{
+        display:none;
+    }
+    .testimonials{
+        margin-top:45px!important;
+    }    
+    .testimonials .reviews blockquote q{
+        padding:0!important;
+    }
+    .heroBanner .bannerReview{
+        max-width:100%;
+        padding:0 30px;
+        right:0;
+    }
+    .heroBanner .bannerReview p{
+        margin-bottom:10px!important;
+    }
+    .quoteSection .leftSide{
+        max-width:100%;
+    }
+    .banner.first .fusion-column-wrapper{
+        padding:30px!important;
+    }
+    .banner.first .btn.btn-secondary{
+        padding-left:10px;
+        padding-right:10px;
+        width:100%;
+    }
+    .fusion-body .bannerArea .smallBanner.fourth{
+        min-height:350px;
+    }
+    .testimonials .reviews blockquote q{
+        font-size:22px;
+        line-height:1.5em;
+    }
+    .callUs .fusion-text h2{
+        font-size:40px!important
+    }
+    .countdown .businessGrowth .col-counter-box{
+        width:100%;
+        margin:15px 0;
+    }
+    .countdown .businessGrowth .col-counter-box .display-counter{
+        font-size:45px;
+    }
+    .footerBookNow{
+        display:block;
+    }
+    .fusion-footer-widget-area{
+        padding-top:0;
+    }
+    .footerBookNow .leftSide, .footerBookNow .rightSide{
+        text-align: center;
+    }
+    .footerBookNow .leftSide{
+        margin-bottom:30px;
+    }
+    .satisfaction img{
+        max-width:140px;        
+    }
+    .fusion-footer .fusion-columns .fusion-column.fusion-column-last{
+        max-width:none;
+    }
+    .copyRight{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: left;
+    }
+    .copyRight .rightSide a{
+        margin-left:0;
+        margin-right:15px;
+    }
+    .copyRight p{
+        margin-top:0;
+    }
+    .aboutCompany .entryContent{
+        margin-top:0;
+        max-width: 100%;;
+    }
+    .servicesSection.section .sngleServices .fusion-title h4{
+        font-size:35px!important
+    }
+    .serviceContent .btn.fusion-button{
+        font-size:25px;
+    }
+    .serviceContent .fusion-imageframe img{
+        max-height:140px;
+    }
+    .serviceContent .fusion-imageframe{
+        margin-bottom:30px;
+    }
+    .teamMembers .memberFace{
+        margin-bottom:35px!important
+    }
+    .sngleMember .entryContent p:last-child{
+        margin-bottom:0!important;
+    }
+    .sngleMember{
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    .servicesBio .fusion-row{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .servicesBio .steps .fusion-column-wrapper {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .steps .stepsContent .entryContent{
+        text-align: center;
+    }
+    .steps .stepsContent ul li p{
+        font-size:15px;
+    }
+    .steps .stepsContent ul li{
+        padding:15px 0;
+    }
+    .steps .stepsContent .btnArea{
+        text-align: center;
+        float:left;
+        width:100%;
+        margin-top:15px;
+    }
+    .steps .stepsContent .btnArea a.btn{
+        display:inline-block;
+    }
+    .afterBefore .sngleAfBe{
+        float:left;
+        max-width:50%;
+    }
+    .afterBefore{
+        margin-bottom:60px!important;
+    }
+    .cleaningOffers .fusion-text h3,
+    .cleaningOffers .fusion-text p{
+        text-align: left!important;
+    }
+    .cleaningOffers .fusion-text p{
+        margin-bottom:0!important;
+    }
+    .cleaningOffers .fusion-text ul{
+        margin-top:15px;
+    }
+    .faq .panel-heading{
+        padding:5px 15px;
+        padding-left:5px;
+    }
+    .fusion-accordian .panel-title .fusion-toggle-heading{
+        margin-left:5px;
+    }
+    .faq .fusion-toggle-heading{
+        font-size:16px;
+    }
+    .reviewsSec .fusion-row{
+        padding-left:10px!important;
+        padding-right:10px!important;
+    }
+    .contFormDetails .fusion-text h2{
+        font-size:35px!important;
+    }
+    .contactUs .gMap {
+        min-height: 60vh;
+    }
+
+    .bannerContent .fusion-text{
+        margin-top:40px;
+    }
+    .bannerContent .fusion-text br{
+        display:none
+    }
+
+    #slideQuote.quoteSection.mobile{
+        padding:0!important;
+        background:transparent!important;
+        margin-top:-1px!important;
+    }
+    .fusion-body #slideQuote.quoteSection.mobile .fusion-row{
+        margin-left:0!important;
+        margin-right:0!important;
+    }
+    #slideQuote.quoteSection.mobile .btn{
+        margin:0;
+        border-radius:0!important;
+        height:65px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-size:18px!important;
+        padding-left:0!important;        
+        padding-right:0!important;        
+    }
+    #slideQuote.quoteSection.mobile .btn span{
+        color:var(--white)
+    }
+    #slideQuote.quoteSection.mobile .leftSide,
+    #slideQuote.quoteSection.mobile .rightSide{
+        float:left;
+        width:50%!important;        
+    }
+    #slideQuote.quoteSection.mobile .leftSide .btn.btn-primary{
+        background:var(--prri-color)!important;
+    }
+
+    .bookingForm .fusion-fullwidth{
+        padding-left:0!important;
+        padding-right:0!important;
+    }
+    .fusion-form-field .fusion-form-input{
+        height:55px;
+    }
+    .formHeader .fusion-imageframe img{
+        max-width:150px;
+    }
+    .formFooter.fusion-footer .footerMenu{
+        width:50%!important;
+    }
+    .formFooter{
+        padding:35px!important;
+    }
+    .formFooter .satisfaction img{
+        margin-bottom:0;
+    }
+    .formFooter.fusion-footer .fusion-column{
+        flex:auto;
+    }
+    .formFooter.fusion-footer .footerMenu.last-column{
+        max-width:none!important;
+    }
+    .formFooter .fusion-content-widget-area .widget.fusion-widget-area-6{
+        margin-bottom:0;
+    }
+    .fusion-form-field .fusion-form-input{
+        font-size:18px!important;
+    }
+    .bookingForm .fusion-title .title-heading-left{
+        font-size:16px!important
+    }
+    .bookingForm .fusion-title .title-heading-left strong{
+        font-size:12px;
+        letter-spacing: normal;
+    }
+    .bookingForm .fusion-text h2 {
+        font-size: 35px !important;
+    }
+    .post-404page .opps .secTitle{
+        font-size:70px!important;
+    }
+    .post-404page .opps .subTitle{
+        font-size:20px!important;
+    }
+	.mapContact .mobile {
+  		display: block!important;
+	}
+	.mapContact .desktop {
+  		display: none;
+	}
+}
+
+@media screen and (max-width:639px){
+	
+	.servicesBio .steps .leftSide.image {
+	  min-height: 350px;
+	}
+   
+}
+
+
+@media screen and (max-width:479px){
+    .servicesSection.section .sngleServices .fusion-title h4{
+        font-size:30px!important
+    }
+    .entryContent h2{
+        font-size:30px!important;
+    }
+    .afterBefore .sngleAfBe{
+        max-width:100%;
+        margin:1.5px 0!important;
+    }
+    .allReviews .snglReview{
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+    .allReviews .snglReview .reviewStars img{
+        width:80px;
+    }
+    .bannerContent .fusion-text h4{
+        font-size:16px!important;
+    }
+    .heroBanner .bannerReview p{
+        font-size:14px;
+    }
+}
+
+@media screen and (max-width:413px){
+    .fusion-body .bannerArea .fusion-column-wrapper,
+    .fusion-body .bannerArea .smallBanner .fusion-column-inner-bg{
+        margin:10px 0!important;
+    }
+    .banner.first .fusion-column-wrapper{
+        padding:25px!important;
+    }
+    .banner.first .fusion-text h1{
+        margin-top:0;
+        font-size:55px!important;
+    }
+}
