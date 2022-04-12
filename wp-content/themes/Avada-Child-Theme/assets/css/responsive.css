@@ -408,6 +408,15 @@
     .bookingForm .fusion-text h2 {
         font-size: 35px !important;
     }
+    #thankyou{
+        padding-top:0!important;
+    }
+    #thankyou .section{
+        padding-top:0!important;
+    }
+    .thankyou .fusion-imageframe img{
+        max-width:180px;
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:928px){
@@ -437,6 +446,9 @@
     }
     .fusion-header-wrapper ul.fusion-menu li.fusion-mobile-nav-item button.fusion-open-submenu{
         height:50px;
+    }
+    .thankyou .fusion-imageframe img{
+        max-width:150px;
     }
     
 }
@@ -507,7 +519,12 @@
     .post-404page .opps{
         min-height:450px;
     }
-    
+    .thankyou .fusion-imageframe img{
+        max-width:150px;
+    }
+    .thankMessage .fusion-text h1{
+        font-size:50px!important
+    }
     
 }
 

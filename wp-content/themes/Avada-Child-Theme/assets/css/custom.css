@@ -1441,3 +1441,33 @@ input.btn.wpcf7-form-control{
 .mapContact .mobile {
   display: none;
 }
+
+.thankyou .fusion-imageframe img{
+    max-width:240px;
+}
+
+.thankMessage .fusion-text{
+    max-width:450px;
+    margin:auto;
+}
+.thankMessage.section{
+    padding-top:30px!important;
+}
+.thankMessage .fusion-text h1{
+    margin:0;
+    margin-bottom:20px;
+    color:var(--prri-color);
+}
+.thankMessage .btnArea{
+    float:left;
+    width:100%;
+    margin-top:15px;
+}
+.thankMessage .btnArea .btn.btn-secondary{
+    background:var(--prri-color);
+}
+.thankMessage .btnArea .btn.btn-secondary:hover{
+    opacity: 1;
+    background:var(--sec-color);
+    color:var(--white)!important;
+}
