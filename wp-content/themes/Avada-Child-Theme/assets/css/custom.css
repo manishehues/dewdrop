@@ -1626,7 +1626,7 @@ input.btn.wpcf7-form-control{
     position: absolute;
     left:0;
     bottom:0;
-    padding:35px;
+    padding:50px; 
     text-align: left;
     width:100%;
     height:100%;
@@ -1646,7 +1646,7 @@ input.btn.wpcf7-form-control{
     display:none;
 }
 .blogSlider .fusion-image-wrapper{
-    max-height:400px;
+    max-height:500px;
 }
 .blogSlider .slick-dots {
     position: absolute;
@@ -1674,6 +1674,11 @@ input.btn.wpcf7-form-control{
 }
 .blogSlider .slick-dots li.slick-active button{
     background:#fff;
+}
+
+
+.articleArea article.post{
+    padding:20px 10px!important;
 }
 
 .articleArea .fusion-column-wrapper{
@@ -1719,4 +1724,54 @@ input.btn.wpcf7-form-control{
 .articleArea article.post .fusion-image-wrapper .fusion-rollover{
     opacity: 0;
     transform: translateX(0);
+}
+
+.articleArea article.post .fusion-meta-info .fusion-read-more{
+    text-transform:uppercase;
+    font-family:var(--mont);
+    font-weight:bold;
+    font-size:16px;
+}
+.articleArea article.post .fusion-meta-info .fusion-read-more::after{
+    content:"\f178";
+    font-family:"Font Awesome 6 Pro";
+    position: relative;
+    right:-5px;
+}
+
+/* .articleArea{
+    padding-bottom:100px!important;
+} */ 
+
+.articleArea .pagination .current,
+.articleArea .pagination a{
+    width:38px!important;
+    height:38px!important;
+    border-radius:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:var(--mont);
+    font-size:16px;
+    border:none;
+    font-weight: bold;
+}
+.articleArea .pagination{
+    justify-content: center;
+}
+.articleArea .pagination a{
+    color:var(--sec);
+}
+.articleArea .pagination a.pagination-prev,
+.articleArea .pagination a.pagination-next{
+    width:auto!important;
+    height:auto!important;
+}
+
+body.paged .BlogBanner,
+body.paged .recentBlogPostSlider{
+    display:none;
+}
+body.paged .articleArea .entryContent{
+    display:none;
 }

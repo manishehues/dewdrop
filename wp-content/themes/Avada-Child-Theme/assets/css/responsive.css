@@ -10,6 +10,7 @@
     .fusion-body .fusion-fullwidth .fusion-row,
     .fusion-body .fusion-header-wrapper .fusion-row{
         max-width:1200px!important;
+        margin:0!important;
     }
 
     .heroBanner .bannerReview{
@@ -23,6 +24,11 @@
     .testimonials .reviews blockquote q{
         font-size:40px;
     }
+    .blogSlider .fusion-image-wrapper{
+        max-height:400px;
+    }
+
+    
     
 }
 
@@ -149,6 +155,13 @@
         width: 170px;
         margin: auto;
         display: block;      
+    }
+    
+    .fusion-body .BlogBanner .blogBio {
+        width: calc(100% - 330px) !important;
+    }
+    .fusion-body .BlogBanner .sideBar {
+        width: 330px !important;
     }
    
 }
@@ -417,6 +430,44 @@
     .thankyou .fusion-imageframe img{
         max-width:180px;
     }
+    .blogHeader .fusion-text ul li{
+        font-size:14px;
+    }
+    .blogHeader .fusion-text ul li a i::before{
+        font-size:15px;
+    }
+    .blogHeader .fusion-text ul li{
+        margin:0 15px;
+    }
+    .fusion-body .BlogBanner .sideBar{
+        width:240px!important;
+    }
+    .fusion-body .BlogBanner .blogBio {
+        width: calc(100% - 240px) !important;
+    }
+    .sideBar .socialBlock h2{
+        font-size:30px!important;
+    }
+    .sideBar .socialBlock{
+        height:240px;
+    }
+    .blogSlider .fusion-image-wrapper{
+        max-height:300px;
+    }
+    .blogSlider .fusion-image-wrapper .fusion-rollover-content{
+        padding:35px;
+    }
+    .blogSlider .fusion-image-wrapper .fusion-rollover-content h4{
+        font-size:35px!important
+    }
+    .blogSlider .slick-dots li button{
+        width:12px;
+        height:12px;
+        border-width:1px;
+    }
+    #recentPost.section{
+        padding-bottom:20px!important
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:928px){
@@ -524,6 +575,15 @@
     }
     .thankMessage .fusion-text h1{
         font-size:50px!important
+    }
+    .fusion-body .BlogBanner .blogBio,
+    .fusion-body .BlogBanner .sideBar{
+        padding:0;
+        width:100%!important
+    }
+    .sideBar .blockImg.fusion-imageframe,
+    .sideBar .blockImg.fusion-imageframe img{
+        width:100%;
     }
     
 }
@@ -921,6 +981,67 @@
 	.servicesBio .steps .leftSide.image {
 	  min-height: 350px;
 	}
+    .servicesSection.section .sngleServices .fusion-column-wrapper, .servicesSection.section .sngleServices .fusion-column-inner-bg{
+        margin-left:0!important;
+        margin-right:0!important;
+    }
+    .articleArea article.post .fusion-post-content-wrapper{
+        padding-right:0!important;
+    }
+    .blogHeader .fusion-text ul li:first-child{
+        margin-left:0;
+    }
+    .blogHeader .fusion-text ul li:last-child{
+        margin-right:0;
+    }
+    .blogHeader .fusion-text ul li{
+        font-size:11px;
+        margin:0;
+        width:25%;
+    }
+    .blogHeader .fusion-text ul li a i::before{
+        display:block;
+        font-size:20px;
+        margin-bottom:10px;        
+        width:50px;
+        height:50px;
+        background:var(--prri-color);
+        margin:auto;
+        border-radius:100px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color:var(--white);
+        margin-bottom:10px;
+    }
+    .categoryArea .fusion-column-wrapper{
+        margin:0!important;
+    }
+    .blogHeader .fusion-text ul li:last-child a i::before{
+        top:9px;
+    }
+    .blogHeader.section{
+        padding-top:30px!important
+    }
+    .fusion-body .BlogBanner .sideBar{
+        margin-top:30px;
+    }
+    .blogSlider .fusion-image-wrapper .fusion-rollover-content h4{
+        max-width:100%;
+        font-size:25px!important;
+        text-align: center;
+    }
+    .blogSlider .slick-dots{
+        position: relative;
+        bottom:20px;
+    }
+
+    .blogSlider .slick-dots li button{
+        border-color:var(--sec-color)
+    }
+    .blogSlider .slick-dots li.slick-active button{
+        background:var(--sec-color)
+    }
    
 }
 
